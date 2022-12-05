@@ -20,9 +20,9 @@ print(s[-1])
 # 'djan'
 print(s[:4])
 # 'jan'
-print(s[2:4])
+print(s[1:4])
 # 'go'
-print(s[3:])
+print(s[4:])
 # Bonus: Use indexing to reverse the string
 print(s[::-1])
 
@@ -46,8 +46,10 @@ print(l)
 
 d1 = {'simple_key':'hello'}
 print(d1['simple_key'])
+
 d2 = {'k1':{'k2':'hello'}}
 print(d2["k1"]["k2"])
+
 d3 = {'k1':[{'nest_key':['this is deep',['hello']]}]}
 print(d3['k1'][0]["nest_key"][1][0])
 
